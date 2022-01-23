@@ -1,0 +1,1 @@
+web: build/install/com.example.midnewgenshounen/bin/com.example.midnewgenshounen

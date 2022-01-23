@@ -16,8 +16,8 @@ fun Application.configureRouting() {
 
     routing {
         root()
-       getAllHeroes()
-     //   getAllHeroes2()
+      // getAllHeroes()
+       getAllHeroes2()
         searchHeroes()
 
         get("/test2")

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.insert-koin:koin-logger-slf4j:3.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-logger-slf4j/3.1.4/31489944c60b8b44d9d4d770285462bdd5fdf1ce/koin-logger-slf4j-3.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-logger-slf4j/3.1.4/b61e4650bec70c50f9015f45a2d0f794dfbdfccb/koin-logger-slf4j-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

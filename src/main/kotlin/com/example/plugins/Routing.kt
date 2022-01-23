@@ -1,6 +1,7 @@
 package com.example.plugins
 
 import com.example.routes.getAllHeroes
+import com.example.routes.getAllHeroes2
 import com.example.routes.root
 import com.example.routes.searchHeroes
 import io.ktor.routing.*
@@ -15,7 +16,8 @@ fun Application.configureRouting() {
 
     routing {
         root()
-        getAllHeroes()
+       getAllHeroes()
+     //   getAllHeroes2()
         searchHeroes()
 
         get("/test2")

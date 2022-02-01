@@ -82,9 +82,9 @@ class HeroRepositoryImpl():HeroRepository {
             id = 3,
             name = "Sakura",
             image = "/images/sakura.jpg",
-            about = "Sakura Uchiha (うちはサクラ, Uchiha Sakura, née Haruno (春野)) is a kunoichi of Konohagakure. When assigned to Team 7, Sakura quickly finds herself ill-prepared for the duties of a shinobi. However, after training under the Sannin Tsunade, she overcomes this, and becomes recognised as one of the greatest medical-nin in the world.",
-            rating = 4.5,
-            power = 92,
+            about = "Sakura Uchiha (うちはサクラ, Uchiha Sakura, née Haruno (春野)) is a kunoichi of Konohagakure. When assigned to Team 7, Sakura quickly finds herself ill-prepared for the duties of a shinobi. However, after training under the Sannin Tsunade, she overcomes this, and becomes recognised as one of the greatest medical-nin in the world. But still Trash",
+            rating = 0.0,
+            power = 0,
             month = "Mar",
             day = "28th",
             family = listOf(

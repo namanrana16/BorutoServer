@@ -1,24 +1,21 @@
 package com.example
 
+
 import com.example.models.ApiResponse
-import io.ktor.routing.*
-import io.ktor.http.*
-import io.ktor.serialization.*
-import io.ktor.features.*
-import org.slf4j.event.*
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
-import kotlin.test.*
-import io.ktor.server.testing.*
-import com.example.plugins.*
+import com.example.plugins.configureRouting
 import com.example.repository.HeroRepository
 import com.example.repository.NEXT_PAGE_KEY
 import com.example.repository.PREVIOUS_PAGE_KEY
+import io.ktor.application.*
+import io.ktor.http.*
+import io.ktor.server.testing.*
+import junit.framework.TestCase.assertEquals
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
+import org.junit.Test
 import org.koin.java.KoinJavaComponent.inject
+import kotlin.test.assertEquals
 
 class ApplicationTest {
 

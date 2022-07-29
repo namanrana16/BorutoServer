@@ -41,10 +41,7 @@ class ApplicationTest {
             val pages = 1..5
             val heroes = listOf(
                 heroRepository.page1,
-                heroRepository.page2,
-                heroRepository.page3,
-                heroRepository.page4,
-                heroRepository.page5
+                heroRepository.page2
             )
             pages.forEach { page->
             handleRequest(HttpMethod.Get, "/boruto/heroes?page=$page").apply {

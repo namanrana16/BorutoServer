@@ -9,7 +9,7 @@ fun Route.root()
 {
     get("/"){
         call.respond(
-            message = "Welcome to MidShounen",
+            message = "Welcome to events",
             status = HttpStatusCode.OK
         )
     }

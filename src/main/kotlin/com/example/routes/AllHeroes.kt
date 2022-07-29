@@ -6,15 +6,13 @@ import io.ktor.application.*
 import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*
-import org.koin.ktor.ext.get
 import org.koin.ktor.ext.inject
-import java.lang.NumberFormatException
 
 fun Route.getAllHeroes(){
 
     val heroRepository:HeroRepository by inject()
 
-    get("/boruto/heroes"){
+    get("/proxima/events"){
 
         try {
             val page = call.request.queryParameters["page"]?.toInt()?:1
